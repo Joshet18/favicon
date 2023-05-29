@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if (( $EUID != 0 )); then
     echo "Please run as root"
     exit
@@ -8,8 +6,6 @@ fi
 clear
 
 install(){
-    cd /var/www/
-    tar -cvf BackUP.tar.gz pterodactyl
     echo "Installing favicon..."
     cd /var/www/pterodactyl/public/favicons
     unlink apple-touch-icon.png
