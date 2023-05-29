@@ -13,7 +13,7 @@ install(){
     echo "Installing favicon..."
     cd /var/www/pterodactyl/public/favicons
     unlink apple-touch-icon.png
-    git clone https://github.com/Angelillo15/MinecraftPurpleTheme.git
+    git clone https://github.com/Joshet18/favicon.git
     unlink run.sh
     echo "Favicon installed"
 }
